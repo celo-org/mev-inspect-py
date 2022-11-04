@@ -1,3 +1,5 @@
+allow_k8s_contexts('gke_celo-testnet-production_us-west1-a_rc1staging')
+
 load("ext://helm_remote", "helm_remote")
 load("ext://secret", "secret_from_dict")
 load("ext://configmap", "configmap_from_dict")
